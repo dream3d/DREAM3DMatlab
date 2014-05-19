@@ -3,7 +3,7 @@ function varargout = AutoPiplineGUI(varargin)
 %      AUTOPIPLINEGUI, by itself, creates a new AUTOPIPLINEGUI or raises the existing
 %      singleton*.
 %
-%      H = AUTOPIPLINEGUI returns the handle to a new AUTOPIPLINEGUI or the handle to
+%      H l= AUTOPIPLINEGUI returns the handle to a new AUTOPIPLINEGUI or the handle to
 %      the existing singleton*.
 %
 %      AUTOPIPLINEGUI('Property','Value',...) creates a new AUTOPIPLINEGUI using the
@@ -383,7 +383,7 @@ for i = 1:length(MisorTol)
             outputfile = strcat(d3doutputpath,name,'-MisorTol',...
                 num2str(MisorTol(i)),'-MAD',num2str(MAD(j)*10),'-CAxisTol',...
                 num2str(CAxisTol(k)),'.dream3d');
-            [path,newname,ext] = fileparts(outputfile);
+            [d3dpath,newname,ext] = fileparts(outputfile);
             
             
             % Rewriting pipeline file lines
@@ -393,7 +393,7 @@ for i = 1:length(MisorTol)
             A{1}{MADRow} = strcat('MultiplesOfAverage=',num2str(MAD(j)));
             A{1}{CAxisTolRow} = strcat('CAxisTolerance=',num2str(CAxisTol(k)));
             A{1}{D3DwriteRow} = strcat('OutputFile=',outputfile);
-            A{1}{CSVwriteRow} = strcat('FeatureDataFile=',path,filesep,newname,'.csv');
+            A{1}{CSVwriteRow} = strcat('FeatureDataFile=',d3dpath,filesep,newname,'.csv');
             
             % Writing pipeline files
             for n = 1:length(A{1})
@@ -422,6 +422,6 @@ end
 pause(10);
 
 fclose all;
-rmdir('TempBatchFolder','s');
-rmdir('TempPipelineFolder','s');
+% rmdir('TempBatchFolder','s');
+% rmdir('TempPipelineFolder','s');
 close all
