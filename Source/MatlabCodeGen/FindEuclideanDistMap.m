@@ -1,0 +1,22 @@
+function [ Filter_Parts ] = FindEuclideanDistMap
+Filter_Parts{1}{1} = 'DoBoundaries';
+Filter_Parts{2}{1} = 'LinkedBooleanWidget';
+Filter_Parts{1}{2} = 'DoTripleLines';
+Filter_Parts{2}{2} = 'LinkedBooleanWidget';
+Filter_Parts{1}{3} = 'DoQuadPoints';
+Filter_Parts{2}{3} = 'LinkedBooleanWidget';
+Filter_Parts{1}{4} = 'SaveNearestNeighbors';
+Filter_Parts{2}{4} = 'LinkedBooleanWidget';
+Filter_Parts{1}{5} = 'CalcOnlyManhattanDist';
+Filter_Parts{2}{5} = 'BooleanWidget';
+Filter_Parts{1}{6} = 'FeatureIdsArrayPath';
+Filter_Parts{2}{6} = 'DataArraySelectionWidget';
+Filter_Parts{1}{7} = 'GBEuclideanDistancesArrayName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'TJEuclideanDistancesArrayName';
+Filter_Parts{2}{8} = 'StringWidget';
+Filter_Parts{1}{9} = 'QPEuclideanDistancesArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+Filter_Parts{1}{10} = 'NearestNeighborsArrayName';
+Filter_Parts{2}{10} = 'StringWidget';
+end

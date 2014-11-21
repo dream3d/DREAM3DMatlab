@@ -1,0 +1,20 @@
+function [ Filter_Parts ] = EstablishMatrixPhase
+Filter_Parts{1}{1} = 'InputStatsArrayPath';
+Filter_Parts{2}{1} = 'DataArraySelectionWidget';
+Filter_Parts{1}{2} = 'InputPhaseTypesArrayPath';
+Filter_Parts{2}{2} = 'DataArraySelectionWidget';
+Filter_Parts{1}{3} = 'OutputCellAttributeMatrixName';
+Filter_Parts{2}{3} = 'AttributeMatrixSelectionWidget';
+Filter_Parts{1}{4} = 'OutputCellFeatureAttributeMatrixName';
+Filter_Parts{2}{4} = 'StringWidget';
+Filter_Parts{1}{5} = 'OutputCellEnsembleAttributeMatrixName';
+Filter_Parts{2}{5} = 'StringWidget';
+Filter_Parts{1}{6} = 'FeatureIdsArrayName';
+Filter_Parts{2}{6} = 'StringWidget';
+Filter_Parts{1}{7} = 'CellPhasesArrayName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'FeaturePhasesArrayName';
+Filter_Parts{2}{8} = 'StringWidget';
+Filter_Parts{1}{9} = 'NumFeaturesArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+end

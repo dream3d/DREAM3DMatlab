@@ -1,0 +1,26 @@
+function [ Filter_Parts ] = YSChoiAbaqusReader
+Filter_Parts{1}{1} = 'InputFile';
+Filter_Parts{2}{1} = 'InputFileWidget';
+Filter_Parts{1}{2} = 'InputFeatureInfoFile';
+Filter_Parts{2}{2} = 'InputFileWidget';
+Filter_Parts{1}{3} = 'CellEulerAnglesArrayName';
+Filter_Parts{2}{3} = 'StringWidget';
+Filter_Parts{1}{4} = 'CellAttributeMatrixName';
+Filter_Parts{2}{4} = 'StringWidget';
+Filter_Parts{1}{5} = 'CellFeatureAttributeMatrixName';
+Filter_Parts{2}{5} = 'StringWidget';
+Filter_Parts{1}{6} = 'CellEnsembleAttributeMatrixName';
+Filter_Parts{2}{6} = 'StringWidget';
+Filter_Parts{1}{7} = 'QuatsArrayName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'AvgQuatsArrayName';
+Filter_Parts{2}{8} = 'StringWidget';
+Filter_Parts{1}{9} = 'CellPhasesArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+Filter_Parts{1}{10} = 'SurfaceFeaturesArrayName';
+Filter_Parts{2}{10} = 'StringWidget';
+Filter_Parts{1}{11} = 'FeatureIdsArrayName';
+Filter_Parts{2}{11} = 'StringWidget';
+Filter_Parts{1}{12} = 'CrystalStructuresArrayName';
+Filter_Parts{2}{12} = 'StringWidget';
+end

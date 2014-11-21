@@ -1,0 +1,20 @@
+function [ Filter_Parts ] = LaplacianSmoothing
+Filter_Parts{1}{1} = 'IterationSteps';
+Filter_Parts{2}{1} = 'IntWidget';
+Filter_Parts{1}{2} = 'Lambda';
+Filter_Parts{2}{2} = 'DoubleWidget';
+Filter_Parts{1}{3} = 'TripleLineLambda';
+Filter_Parts{2}{3} = 'DoubleWidget';
+Filter_Parts{1}{4} = 'QuadPointLambda';
+Filter_Parts{2}{4} = 'DoubleWidget';
+Filter_Parts{1}{5} = 'SurfacePointLambda';
+Filter_Parts{2}{5} = 'DoubleWidget';
+Filter_Parts{1}{6} = 'SurfaceTripleLineLambda';
+Filter_Parts{2}{6} = 'DoubleWidget';
+Filter_Parts{1}{7} = 'SurfaceQuadPointLambda';
+Filter_Parts{2}{7} = 'DoubleWidget';
+Filter_Parts{1}{8} = 'SurfaceMeshNodeTypeArrayPath';
+Filter_Parts{2}{8} = 'DataArraySelectionWidget';
+Filter_Parts{1}{9} = 'SurfaceMeshFaceLabelsArrayPath';
+Filter_Parts{2}{9} = 'DataArraySelectionWidget';
+end

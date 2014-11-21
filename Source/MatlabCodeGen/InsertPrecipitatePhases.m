@@ -1,0 +1,24 @@
+function [ Filter_Parts ] = InsertPrecipitatePhases
+Filter_Parts{1}{1} = 'PeriodicBoundaries';
+Filter_Parts{2}{1} = 'BooleanWidget';
+Filter_Parts{1}{2} = 'InputStatsArrayPath';
+Filter_Parts{2}{2} = 'DataArraySelectionWidget';
+Filter_Parts{1}{3} = 'InputPhaseTypesArrayPath';
+Filter_Parts{2}{3} = 'DataArraySelectionWidget';
+Filter_Parts{1}{4} = 'InputShapeTypesArrayPath';
+Filter_Parts{2}{4} = 'DataArraySelectionWidget';
+Filter_Parts{1}{5} = 'FeatureIdsArrayPath';
+Filter_Parts{2}{5} = 'DataArraySelectionWidget';
+Filter_Parts{1}{6} = 'CellPhasesArrayPath';
+Filter_Parts{2}{6} = 'DataArraySelectionWidget';
+Filter_Parts{1}{7} = 'BoundaryCellsArrayPath';
+Filter_Parts{2}{7} = 'DataArraySelectionWidget';
+Filter_Parts{1}{8} = 'FeaturePhasesArrayPath';
+Filter_Parts{2}{8} = 'DataArraySelectionWidget';
+Filter_Parts{1}{9} = 'NumFeaturesArrayPath';
+Filter_Parts{2}{9} = 'DataArraySelectionWidget';
+Filter_Parts{1}{10} = 'WriteGoalAttributes';
+Filter_Parts{2}{10} = 'LinkedBooleanWidget';
+Filter_Parts{1}{11} = 'CsvOutputFile';
+Filter_Parts{2}{11} = 'OutputFileWidget';
+end

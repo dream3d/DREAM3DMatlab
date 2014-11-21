@@ -1,0 +1,20 @@
+function [ Filter_Parts ] = FitCorrelatedFeatureData
+Filter_Parts{1}{1} = 'SelectedFeatureArrayPath';
+Filter_Parts{2}{1} = 'DataArraySelectionWidget';
+Filter_Parts{1}{2} = 'CorrelatedFeatureArrayPath';
+Filter_Parts{2}{2} = 'DataArraySelectionWidget';
+Filter_Parts{1}{3} = 'DistributionType';
+Filter_Parts{2}{3} = 'ChoiceWidget';
+Filter_Parts{1}{4} = 'NumberOfCorrelatedBins';
+Filter_Parts{2}{4} = 'IntWidget';
+Filter_Parts{1}{5} = 'RemoveBiasedFeatures';
+Filter_Parts{2}{5} = 'LinkedBooleanWidget';
+Filter_Parts{1}{6} = 'FeaturePhasesArrayPath';
+Filter_Parts{2}{6} = 'DataArraySelectionWidget';
+Filter_Parts{1}{7} = 'BiasedFeaturesArrayPath';
+Filter_Parts{2}{7} = 'DataArraySelectionWidget';
+Filter_Parts{1}{8} = 'CellEnsembleAttributeMatrixName';
+Filter_Parts{2}{8} = 'AttributeMatrixSelectionWidget';
+Filter_Parts{1}{9} = 'NewEnsembleArrayArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+end
