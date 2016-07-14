@@ -1,0 +1,24 @@
+function [ Filter_Parts ] = EstablishMatrixPhase
+Filter_Parts{1}{1} = 'UseMask';
+Filter_Parts{2}{1} = 'LinkedBooleanWidget';
+Filter_Parts{1}{2} = 'OutputCellAttributeMatrixPath';
+Filter_Parts{2}{2} = 'AttributeMatrixSelectionWidget';
+Filter_Parts{1}{3} = 'FeatureIdsArrayName';
+Filter_Parts{2}{3} = 'StringWidget';
+Filter_Parts{1}{4} = 'CellPhasesArrayName';
+Filter_Parts{2}{4} = 'StringWidget';
+Filter_Parts{1}{5} = 'MaskArrayPath';
+Filter_Parts{2}{5} = 'DataArraySelectionWidget';
+Filter_Parts{1}{6} = 'OutputCellFeatureAttributeMatrixName';
+Filter_Parts{2}{6} = 'StringWidget';
+Filter_Parts{1}{7} = 'FeaturePhasesArrayName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'InputStatsArrayPath';
+Filter_Parts{2}{8} = 'DataArraySelectionWidget';
+Filter_Parts{1}{9} = 'InputPhaseTypesArrayPath';
+Filter_Parts{2}{9} = 'DataArraySelectionWidget';
+Filter_Parts{1}{10} = 'OutputCellEnsembleAttributeMatrixName';
+Filter_Parts{2}{10} = 'StringWidget';
+Filter_Parts{1}{11} = 'NumFeaturesArrayName';
+Filter_Parts{2}{11} = 'StringWidget';
+end

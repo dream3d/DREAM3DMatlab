@@ -1,0 +1,280 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3131470016" file="C:\Users\weihintj\Desktop\AP_Manual\AutoPipeline_v3\AutoPipeline_v3.prj" location="C:\Users\weihintj\Desktop\AP_Manual\AutoPipeline_v3" name="AutoPipeline_v3" preferred-package-location="C:\Users\weihintj\Desktop\AP_Manual\AutoPipeline_v3\AutoPipeline_v3\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>AutoPipeline_v3</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Tyler Weihing</param.authnamewatermark>
+    <param.email>tyler.weihing@gmail.com</param.email>
+    <param.company>SOCHE</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\SOCHE\AutoPipeline_v3\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\AutoPipeline_v3\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\AutoPipeline_v3\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\AutoPipeline_v3\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\AutoPipeline_v3\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\AutoPipeline_v3.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\allcomb.m</file>
+      <file>${PROJECT_ROOT}\AutoPipeline_v3.fig</file>
+      <file>${PROJECT_ROOT}\AutoPipeline_v3_input_gui.fig</file>
+      <file>${PROJECT_ROOT}\AutoPipeline_v3_input_gui.m</file>
+      <file>${PROJECT_ROOT}\AutoPipeline_v3_output_gui.fig</file>
+      <file>${PROJECT_ROOT}\AutoPipeline_v3_output_gui.m</file>
+      <file>${PROJECT_ROOT}\dream3d_json_read.m</file>
+      <file>${PROJECT_ROOT}\GUIsaver.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AbaqusHexahedronWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AbaqusSurfaceMeshWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AddBadData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AddOrientationNoise.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AlignSectionsFeature.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AlignSectionsFeatureCentroid.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AlignSectionsList.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AlignSectionsMisorientation.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AlignSectionsMutualInformation.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\AppendImageGeometryZSlice.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ArraySelectionExample.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\BadDataNeighborOrientationCheck.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CalculateArrayHistogram.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CAxisSegmentFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ChangeAngleRepresentation.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ChangeResolution.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CombineAttributeArrays.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CombineAttributeMatrices.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ConditionalSetValue.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ConvertData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ConvertHexGridToSquareGrid.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ConvertOrientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CopyFeatureArrayToElementArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CreateAttributeMatrix.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CreateDataArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CreateDataContainer.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CreateFeatureArrayFromElementArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CreateImageGeometry.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\CropImageGeometry.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\DataContainerReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\DataContainerWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\DxReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\DxWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\DynamicTableExample.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\EBSDSegmentFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\EbsdToH5Ebsd.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\EMMPMFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\EnsembleInfoReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ErodeDilateBadData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ErodeDilateCoordinationNumber.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ErodeDilateMask.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\EstablishMatrixPhase.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\EstablishShapeTypes.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ExportData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ExtractComponentAsArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ExtractFlaggedFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FeatureCountDecision.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FeatureDataCSVWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FeatureFaceCurvatureFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FeatureInfoReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FillBadData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindAvgCAxes.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindAvgOrientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindAvgScalarValueForFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindBoundaryCells.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindBoundaryElementFractions.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindBoundaryStrengths.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindBoundingBoxFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindCAxisLocations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindCSLBoundaries.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindDifferenceMap.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindEuclideanDistMap.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeatureCentroids.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeatureClustering.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeatureNeighborCAxisMisalignments.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeaturePhases.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeaturePhasesBinary.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeatureReferenceCAxisMisorientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindFeatureReferenceMisorientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindGBCD.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindGBCDMetricBased.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindKernelAvgMisorientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindLargestCrossSections.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindMisorientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindNeighborhoods.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindNeighbors.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindNumFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindProjectedImageStatistics.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindRelativeMotionBetweenSlices.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindSchmids.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindShapes.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindSizes.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindSlipTransmissionMetrics.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindSurfaceAreaToVolume.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindSurfaceFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindTwinBoundaries.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindTwinBoundarySchmidFactors.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FindVolFractions.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FitFeatureData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\FlattenImage.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GBCDTriangleDumper.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenerateEnsembleStatistics.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenerateFaceIPFColoring.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenerateFaceMisorientationColoring.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenerateGeometryConnectivity.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenerateIPFColors.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenerateVectorColors.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\GenericExample.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\IdentifySample.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ImportASCIIData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ImportImageStack.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ImportVectorImageStack.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\InitializeData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\InitializeSyntheticVolume.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\INLWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\InsertAtoms.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\InsertPrecipitatePhases.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\InsertTransformationPhases.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\JumbleOrientations.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\LaplacianSmoothing.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\LinkFeatureMapToElementArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\LosAlamosFFTWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MakeDataContainer.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MaskCountDecision.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MatchCrystallography.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MergeColonies.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MergeTwins.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MinNeighbors.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MinSize.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MoveData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MultiEmmpmFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\MultiThresholdObjects.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\NearestPointFuseRegularGrids.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\NeighborOrientationCorrelation.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\OrientationUtility.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\PackPrimaryPhases.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\PhReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\PhWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\QuickSurfaceMesh.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RawBinaryReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReadAngData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReadCtfData.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReadEdaxH5Data.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReadH5Ebsd.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReadStlFile.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RegularGridSampleSurfaceMesh.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RegularizeZSpacing.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RemoveArrays.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RemoveComponentFromArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RemoveFlaggedFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RenameAttributeArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RenameAttributeMatrix.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RenameDataContainer.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReplaceElementAttributesWithNeighborValues.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReplaceValueInArray.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RequiredZThickness.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ReverseTriangleWinding.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RotateEulerRefFrame.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\RotateSampleRefFrame.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\SampleSurfaceMeshSpecifiedPoints.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ScalarSegmentFeatures.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ScaleVolume.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\SetOriginResolutionImageGeom.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\SharedFeatureFaceFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\SPParksTextReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\SPParksWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\ThresholdExample.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\TiDwellFatigueCrystallographicAnalysis.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\TriangleAreaFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\TriangleCentroidFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\TriangleDihedralAngleFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\TriangleNormalFilter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\UncertainRegularGridSampleSurfaceMesh.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\VisualizeGBCDGMT.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\VisualizeGBCDPoleFigure.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\VtkRectilinearGridWriter.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\VtkStructuredPointsReader.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WarpRegularGrid.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WriteImages.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WriteIPFStandardTriangle.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WritePoleFigure.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WriteStatsGenOdfAngleFile.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WriteStlFile.m</file>
+      <file>${PROJECT_ROOT}\Matlab_CodeGen_d3d_v6\WriteTriangleGeometry.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\AutoPipeline_v3\for_testing" name="readme.txt" optional="true">C:\Users\weihintj\Desktop\AP_Manual\AutoPipeline_v3\AutoPipeline_v3\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\AutoPipeline_v3\for_testing" name="AutoPipeline_v3.exe" optional="false">C:\Users\weihintj\Desktop\AP_Manual\AutoPipeline_v3\AutoPipeline_v3\for_testing\AutoPipeline_v3.exe</file>
+      <file location="${PROJECT_ROOT}\AutoPipeline_v3\for_testing" name="splash.png" optional="false">C:\Users\weihintj\Desktop\AP_Manual\AutoPipeline_v3\AutoPipeline_v3\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

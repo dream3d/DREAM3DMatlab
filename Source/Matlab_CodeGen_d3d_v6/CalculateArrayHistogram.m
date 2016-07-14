@@ -1,0 +1,20 @@
+function [ Filter_Parts ] = CalculateArrayHistogram
+Filter_Parts{1}{1} = 'NumberOfBins';
+Filter_Parts{2}{1} = 'IntWidget';
+Filter_Parts{1}{2} = 'UserDefinedRange';
+Filter_Parts{2}{2} = 'LinkedBooleanWidget';
+Filter_Parts{1}{3} = 'MinRange';
+Filter_Parts{2}{3} = 'DoubleWidget';
+Filter_Parts{1}{4} = 'MaxRange';
+Filter_Parts{2}{4} = 'DoubleWidget';
+Filter_Parts{1}{5} = 'NewDataContainer';
+Filter_Parts{2}{5} = 'LinkedBooleanWidget';
+Filter_Parts{1}{6} = 'SelectedArrayPath';
+Filter_Parts{2}{6} = 'DataArraySelectionWidget';
+Filter_Parts{1}{7} = 'NewDataContainerName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'NewAttributeMatrixName';
+Filter_Parts{2}{8} = 'StringWidget';
+Filter_Parts{1}{9} = 'NewDataArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+end

@@ -1,0 +1,24 @@
+function [ Filter_Parts ] = FindFeatureClustering
+Filter_Parts{1}{1} = 'NumberOfBins';
+Filter_Parts{2}{1} = 'IntWidget';
+Filter_Parts{1}{2} = 'PhaseNumber';
+Filter_Parts{2}{2} = 'IntWidget';
+Filter_Parts{1}{3} = 'RemoveBiasedFeatures';
+Filter_Parts{2}{3} = 'LinkedBooleanWidget';
+Filter_Parts{1}{4} = 'EquivalentDiametersArrayPath';
+Filter_Parts{2}{4} = 'DataArraySelectionWidget';
+Filter_Parts{1}{5} = 'FeaturePhasesArrayPath';
+Filter_Parts{2}{5} = 'DataArraySelectionWidget';
+Filter_Parts{1}{6} = 'CentroidsArrayPath';
+Filter_Parts{2}{6} = 'DataArraySelectionWidget';
+Filter_Parts{1}{7} = 'BiasedFeaturesArrayPath';
+Filter_Parts{2}{7} = 'DataArraySelectionWidget';
+Filter_Parts{1}{8} = 'CellEnsembleAttributeMatrixName';
+Filter_Parts{2}{8} = 'AttributeMatrixSelectionWidget';
+Filter_Parts{1}{9} = 'ClusteringListArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+Filter_Parts{1}{10} = 'NewEnsembleArrayArrayName';
+Filter_Parts{2}{10} = 'StringWidget';
+Filter_Parts{1}{11} = 'MaxMinArrayName';
+Filter_Parts{2}{11} = 'StringWidget';
+end

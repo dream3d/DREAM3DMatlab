@@ -1,0 +1,22 @@
+function [ Filter_Parts ] = WarpRegularGrid
+Filter_Parts{1}{1} = 'PolyOrder';
+Filter_Parts{2}{1} = 'ChoiceWidget';
+Filter_Parts{1}{2} = 'SecondOrderACoeff';
+Filter_Parts{2}{2} = 'SecondOrderPolynomialWidget';
+Filter_Parts{1}{3} = 'SecondOrderBCoeff';
+Filter_Parts{2}{3} = 'SecondOrderPolynomialWidget';
+Filter_Parts{1}{4} = 'ThirdOrderACoeff';
+Filter_Parts{2}{4} = 'ThirdOrderPolynomialWidget';
+Filter_Parts{1}{5} = 'ThirdOrderBCoeff';
+Filter_Parts{2}{5} = 'ThirdOrderPolynomialWidget';
+Filter_Parts{1}{6} = 'FourthOrderACoeff';
+Filter_Parts{2}{6} = 'FourthOrderPolynomialWidget';
+Filter_Parts{1}{7} = 'FourthOrderBCoeff';
+Filter_Parts{2}{7} = 'FourthOrderPolynomialWidget';
+Filter_Parts{1}{8} = 'SaveAsNewDataContainer';
+Filter_Parts{2}{8} = 'LinkedBooleanWidget';
+Filter_Parts{1}{9} = 'NewDataContainerName';
+Filter_Parts{2}{9} = 'StringWidget';
+Filter_Parts{1}{10} = 'CellAttributeMatrixPath';
+Filter_Parts{2}{10} = 'AttributeMatrixSelectionWidget';
+end

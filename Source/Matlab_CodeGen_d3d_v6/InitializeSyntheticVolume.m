@@ -1,0 +1,22 @@
+function [ Filter_Parts ] = InitializeSyntheticVolume
+Filter_Parts{1}{1} = 'EstimateNumberOfFeatures';
+Filter_Parts{2}{1} = 'LinkedBooleanWidget';
+Filter_Parts{1}{2} = 'InputStatsFile';
+Filter_Parts{2}{2} = 'InputFileWidget';
+Filter_Parts{1}{3} = 'EstimatedPrimaryFeatures';
+Filter_Parts{2}{3} = 'PreflightUpdatedValueWidget';
+Filter_Parts{1}{4} = 'InputStatsArrayPath';
+Filter_Parts{2}{4} = 'DataArraySelectionWidget';
+Filter_Parts{1}{5} = 'InputPhaseTypesArrayPath';
+Filter_Parts{2}{5} = 'DataArraySelectionWidget';
+Filter_Parts{1}{6} = 'DataContainerName';
+Filter_Parts{2}{6} = 'StringWidget';
+Filter_Parts{1}{7} = 'CellAttributeMatrixName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'Dimensions';
+Filter_Parts{2}{8} = 'IntVec3Widget';
+Filter_Parts{1}{9} = 'Resolution';
+Filter_Parts{2}{9} = 'FloatVec3Widget';
+Filter_Parts{1}{10} = 'Origin';
+Filter_Parts{2}{10} = 'FloatVec3Widget';
+end

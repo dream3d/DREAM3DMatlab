@@ -28,7 +28,7 @@ elseif isempty(current_step)
 %     FinalCell{CurrentFilterValue,3}(CurrentPropertyValue,1:totalspaceneeded) = [current_min, current_max];
     return
 else
-    FinalCell{CurrentFilterValue,3}(CurrentPropertyValue,1:totalspaceneeded) = [strcat(current_min,'/', current_max,'/', current_step)];
+    FinalCell{CurrentFilterValue,3}(CurrentPropertyValue,1) = {strcat(current_min,'/', current_max,'/', current_step)};
 end
 
 handles.FinalCell = FinalCell;

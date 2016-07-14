@@ -1,0 +1,22 @@
+function [ Filter_Parts ] = InitializeData
+Filter_Parts{1}{1} = 'CellAttributeMatrixPaths';
+Filter_Parts{2}{1} = 'MultiDataArraySelectionWidget';
+Filter_Parts{1}{2} = 'XMin';
+Filter_Parts{2}{2} = 'IntWidget';
+Filter_Parts{1}{3} = 'YMin';
+Filter_Parts{2}{3} = 'IntWidget';
+Filter_Parts{1}{4} = 'ZMin';
+Filter_Parts{2}{4} = 'IntWidget';
+Filter_Parts{1}{5} = 'XMax';
+Filter_Parts{2}{5} = 'IntWidget';
+Filter_Parts{1}{6} = 'YMax';
+Filter_Parts{2}{6} = 'IntWidget';
+Filter_Parts{1}{7} = 'ZMax';
+Filter_Parts{2}{7} = 'IntWidget';
+Filter_Parts{1}{8} = 'InitType';
+Filter_Parts{2}{8} = 'ChoiceWidget';
+Filter_Parts{1}{9} = 'InitValue';
+Filter_Parts{2}{9} = 'DoubleWidget';
+Filter_Parts{1}{10} = 'InitRange';
+Filter_Parts{2}{10} = 'RangeWidget';
+end

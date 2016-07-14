@@ -1,0 +1,22 @@
+function [ Filter_Parts ] = FeatureInfoReader
+Filter_Parts{1}{1} = 'InputFile';
+Filter_Parts{2}{1} = 'InputFileWidget';
+Filter_Parts{1}{2} = 'CreateCellLevelArrays';
+Filter_Parts{2}{2} = 'LinkedBooleanWidget';
+Filter_Parts{1}{3} = 'RenumberFeatures';
+Filter_Parts{2}{3} = 'BooleanWidget';
+Filter_Parts{1}{4} = 'CellAttributeMatrixName';
+Filter_Parts{2}{4} = 'AttributeMatrixSelectionWidget';
+Filter_Parts{1}{5} = 'FeatureIdsArrayPath';
+Filter_Parts{2}{5} = 'DataArraySelectionWidget';
+Filter_Parts{1}{6} = 'CellPhasesArrayName';
+Filter_Parts{2}{6} = 'StringWidget';
+Filter_Parts{1}{7} = 'CellEulerAnglesArrayName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'CellFeatureAttributeMatrixName';
+Filter_Parts{2}{8} = 'StringWidget';
+Filter_Parts{1}{9} = 'FeaturePhasesArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+Filter_Parts{1}{10} = 'FeatureEulerAnglesArrayName';
+Filter_Parts{2}{10} = 'StringWidget';
+end

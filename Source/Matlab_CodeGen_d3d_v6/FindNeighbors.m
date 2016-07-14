@@ -1,0 +1,20 @@
+function [ Filter_Parts ] = FindNeighbors
+Filter_Parts{1}{1} = 'StoreBoundaryCells';
+Filter_Parts{2}{1} = 'LinkedBooleanWidget';
+Filter_Parts{1}{2} = 'StoreSurfaceFeatures';
+Filter_Parts{2}{2} = 'LinkedBooleanWidget';
+Filter_Parts{1}{3} = 'FeatureIdsArrayPath';
+Filter_Parts{2}{3} = 'DataArraySelectionWidget';
+Filter_Parts{1}{4} = 'CellFeatureAttributeMatrixPath';
+Filter_Parts{2}{4} = 'AttributeMatrixSelectionWidget';
+Filter_Parts{1}{5} = 'BoundaryCellsArrayName';
+Filter_Parts{2}{5} = 'StringWidget';
+Filter_Parts{1}{6} = 'NumNeighborsArrayName';
+Filter_Parts{2}{6} = 'StringWidget';
+Filter_Parts{1}{7} = 'NeighborListArrayName';
+Filter_Parts{2}{7} = 'StringWidget';
+Filter_Parts{1}{8} = 'SharedSurfaceAreaListArrayName';
+Filter_Parts{2}{8} = 'StringWidget';
+Filter_Parts{1}{9} = 'SurfaceFeaturesArrayName';
+Filter_Parts{2}{9} = 'StringWidget';
+end
