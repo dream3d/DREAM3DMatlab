@@ -1,4 +1,4 @@
-DREAM3DMatlab
+AutoPipeline
 =============
 
-This repository holds MATLAB codes that allow easier access to a DREAM3D data file
+API for Batch Processing DREAM.3D
